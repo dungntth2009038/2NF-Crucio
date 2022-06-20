@@ -1,0 +1,229 @@
+/*.preview__actions .preview__action--buy {*/
+/*    line-height: 54px ;*/
+/*}*/
+/*.navbar {*/
+/*    height: 100px;*/
+/*    padding: 0 5%;*/
+/*    -webkit-border-radius: 0;*/
+/*    -moz-border-radius: 0;*/
+/*    -ms-border-radius: 0;*/
+/*    -o-border-radius: 0;*/
+/*    border-radius: 0;*/
+/*    z-index: 999999999;*/
+/*    -webkit-transition: all 0.5s ease-in-out;*/
+/*    -moz-transition: all 0.5s ease-in-out;*/
+/*    -o-transition: all 0.5s ease-in-out;*/
+/*    -ms-transition: all 0.5s ease-in-out;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
+
+
+/*.navbar-fixed-top {*/
+/*    margin-top: 100px;*/
+/*}*/
+/*.preview__action--buy {*/
+/*    margin-bottom: 100px;*/
+/*}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-color: #262626;
+}
+
+.menu {
+    height: 54px;
+    z-index: 100;
+    line-height: 54px;
+    /*margin-bottom: 1px;*/
+}
+
+.buynow {
+    float: right;
+    background: #82B440;
+    margin-right: 20px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 93px;
+
+}
+
+.navigation {
+    background-color: black;
+    height: 70px;
+}
+
+.navigation ul {
+
+    float: right;
+    /*max-width: 1200px;*/
+    margin: auto;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navigation ul li {
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.navigation ul li a {
+    color: #ffffffff;
+    text-decoration: none;
+}
+
+.navigation ul li a .top {
+    color: #C64CFF !important;
+}
+
+.text-center {
+    text-align: center;
+    background: black;
+}
+
+.text-h1 {
+    color: #fff;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: relative;
+    -webkit-animation: fadeInLeft 2s;
+    animation: fadeInLeft 2s;
+}
+
+.text-h2 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    margin-bottom: 0;
+    -webkit-animation: fadeInRight 2s;
+    animation: fadeInRight 2s;
+}
+
+hr {
+    width: 50px;
+    height: 3px;
+    background-color: #AD00FF;
+    margin: 30px auto;
+    border: 0;
+    position: relative;
+}
+
+.scroll-down {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999999;
+}
+
+.scroll-down:before {
+    content: '';
+    display: block;
+    border-bottom: 5px solid #AD00FF;
+    border-right: 5px solid #AD00FF;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-animation: scrollDown 1s infinite alternate;
+    -moz-animation: scrollDown 1s infinite alternate;
+    -o-animation: scrollDown 1s infinite alternate;
+    -ms-animation: scrollDown 1s infinite alternate;
+    animation: scrollDown 1s infinite alternate;
+}
+
+.text-second h2 {
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 1.5;
+}
+
+.text-second h3 {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    line-height: 1.3;
+    padding-top: 30px;
+}
+
+.text-second p {
+    padding-top: 50px;
+    margin-bottom: 0;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.color {
+    color: #AD00FF;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.container {
+    text-align: center;
+}
+
+.box1 {
+    width: 33.3%;
+    float: left;
+    padding: 80px;
+    background-color: #AD00FF;
+}
+
+.box2 {
+    width: 33.3%;
+    float: left;
+    padding: 80px;
+    background-color: #8200BF;
+}
+
+.box3 {
+    width: 33.3%;
+    float: left;
+    padding: 80px;
+    background-color: #56007F;
+}
+.section.about h3{
+    color: #FFF;
+    letter-spacing: 1px;
+}
+.section.about p{
+    font-size: 13px;
+    color: #FFF;
+    line-height: 1.5;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+

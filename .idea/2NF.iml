@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="index-110c978a609a3a5b20b74d239a342c8e9c92180d3bb577d5d9d7fa5aaeb30efc" level="application" />
+    <orderEntry type="library" name="index-004d35cdd5d555cdd3e956d1b916825642de06529f0fe91fd9f390813761d2fc" level="application" />
+  </component>
+</module>
