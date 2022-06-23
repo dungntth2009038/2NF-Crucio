@@ -31,13 +31,13 @@
                 <a href="index.html"><img style="width:100px; margin-left: 60px; margin-top: 18px; margin-bottom: 20px"
                                           src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/logo_white.png"
                                           alt=""></a>
-                <ul style="height: 86px;">
-                    <li><a href="" style="color: #C64CFF">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">TEAM</a></li>
-                    <li><a href="">PORTFOLIO</a></li>
-                    <li><a href="">CONTACT</a></li>
+                <ul class="nav-active" style="height: 86px;">
+                    <li class="active"><a href="#top" style="color: #C64CFF">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -45,24 +45,27 @@
     </nav>
 </header>
 <div class="navigation">
-
-    <div class="text-center" style="width: 1519px ; height: 600px; padding-top: 50px">
-        <h1 class="text-h1">CRUCIO</h1>
-        <hr>
-        <h2 class="text-h2">POWERFUL WEBSITES</h2>
-    </div>
-    <div class="text-second-center">
-        <a href="#about" class="scroll-down"></a>
+    <div id="header">
+        <div id="header-canvas">
+            <div class="text-center" style="width: 1519px ; height: 600px; padding-top: 50px">
+                <h1 class="text-h1">CRUCIO</h1>
+                <hr>
+                <h2 class="text-h2">POWERFUL WEBSITES</h2>
+            </div>
+            <div class="text-second-center">
+                <a href="#about" class="scroll-down"></a>
+            </div>
+        </div>
     </div>
 </div>
 <!-- about -->
-<div id="about" class="section padding-top padding-bottom" style="width: 1519px ; height: 700px">
+<div class="section padding-top padding-bottom" style="width: 1519px ; height: 700px">
 </div>
-<div class="container" style="width: 1519px ; height: 400px">
+<div id="about" class="container" style="width: 1519px ; height: 400px">
     <div class="text-second" style="margin-top: -10%">
         <h2 style="margin-top: 180px">WELCOME TO <strong class="color">CRUCIO</strong></h2>
         <h3>WE CREATE AWESOME WEBSITES</h3>
-        <p style="padding: 0 200px; margin-top: 50px">
+        <p style="padding: 0 200px; margin-top: 50px;color: #777777;">
             Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in
@@ -93,11 +96,11 @@
 <div id="services" class="section services padding-top padding-bottom">
     <div class="container">
         <div class="section-heading">
-            <h2 style="margin-top: 35%">SERVICES</h2>
+            <h2 style="margin-top: 35%; font-weight: 200">SERVICES</h2>
             <hr>
         </div>
         <div class="section-content">
-            <p style="padding: 0 200px">Lorem ipsum dolor sit amet,
+            <p style="padding: 0 200px; font-weight: normal">Lorem ipsum dolor sit amet,
                 <strong>consectetur</strong>
                 adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure
@@ -216,9 +219,9 @@
         </div>
     </div>
 </div>
-<div>
+<div id="portfolio">
     <div class="our-portfolio" style="margin-top: 13%; text-align: center">
-        <h2>OUR PORTFOLIO</h2>
+        <h2 style="font-size: 30px;color: #111111; font-weight: 100">OUR PORTFOLIO</h2>
         <hr>
     </div>
     <div class="filters-group">
@@ -290,13 +293,15 @@
     <div>
         <div id="Paris" class="tabcontent">
             <div class="insotope-img-1">
-                <img style="cursor: pointer"
+                <img style="cursor: pointer "
                      src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/portfolio/work1.jpg"
                      alt="abc">
+
                 <div class="image-overlay">
                     <a href="https://demo.riccardoborchi.it/crucio/HTML/assets/img/portfolio/work1.jpg"
                        class="media-popup"
                        title="Project #1">
+
                         <!--                            <div class="work-item-info">-->
                         <!--                                <h3>Project #1</h3>-->
                         <!--                                <p>Project Description</p>-->
@@ -361,24 +366,24 @@
 </div>
 
 
-<div class="section newsletter">
+<div class="section newsletter" style="margin-top: 100px;">
     <div class="section-content">
         <div class="container">
             <div>
-                <h3 style="font-size: 24px">Subscribe To Our Newsletter</h3>
+                <h3 style="font-size: 24px; font-weight: 100">Subscribe To Our Newsletter</h3>
             </div>
             <div>
                 <input type="text" placeholder="Enter your email..."
-                       style="width: 800px; margin-top: 50px; text-align: center; border: 100px; border-bottom: 1px solid">
+                       style="width: 800px; margin-top: 50px; text-align: center; border: 100px; border-bottom: 1px solid; padding: 15px 20px;   ">
                 <br>
                 <button type="submit" style="margin-top: 50px" class="subcribe">Subscribe</button>
             </div>
         </div>
     </div>
 </div>
-<div class="section-dark">
+<div class="section-dark1">
     <div class="">
-        <h3>WANT TO DISCUSS YOUR NEW PROJECT?</h3>
+        <h3 style="text-align: center;color: #FFF;line-height: 1.5; font-size: 24px; font-weight: 100; letter-spacing: 1px">WANT TO DISCUSS YOUR NEW PROJECT?</h3>
         <div style="margin-top: 40px">
             <a href="" class="contact" style="text-align: center">CONTACT US</a>
         </div>
@@ -386,7 +391,7 @@
 </div>
 <div id="testimonials" style="background-color: black;height: 423px;">
     <div class="testimonial">
-        <h2 style="color: #FFF;">TESTIMONIALS</h2>
+        <h2 style="color: #FFF; letter-spacing: 5px; font-weight: 500">TESTIMONIALS</h2>
         <hr style="background-color: #fff">
     </div>
     <div class="container">
@@ -484,7 +489,7 @@
 <!-- CONTACT -->
 <div id="contact">
     <div class="section-heading">
-        <h2>CONTACT</h2>
+        <h2 style="font-weight: 100; letter-spacing: 5px;">CONTACT</h2>
         <hr>
     </div>
     <div class="section-content">
@@ -514,19 +519,52 @@
         <div class="contact-form" style="text-align: center">
             <div class="alert">
                 <form id="contact-form" action="#" method="post">
-                    <div>
-                        <input type="text" placeholder="Name*">
-                        <input type="text" placeholder="Email*">
+                    <div class="text-name">
+                        <input class="name" type="text" placeholder="Name*" required>
+                        <input class="text-email" type="email" placeholder="Email*" required>
+                    </div>
+                    <div style="margin-top: 250px">
+                        <input class="message" type="text" placeholder="Message*" required>
+                    </div>
+                    <div style="margin-left: 52%">
+                        <button class="subcribe" style="margin-top: 40px">SEND</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
-
-
-
-
+<!-- SOCIAL -->
+<div class="section-social">
+    <div class="section-content" style="margin-top: 200px">
+        <div class="container">
+            <div class="text-center">
+                <img style="margin-top: 50px" src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/logo_white.png"
+                     alt="">
+            </div>
+            <div class="text-center">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FOOTER -->
+<footer id="footer" class="section">
+    <div class="section-content">
+        <div class="container">
+            <p class="copyright">© 2016. Crucio. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<div class="back-to-top" style="display: block;">
+    <i onclick="topFunction()" id="myBtn" title="Go to top" class="fa-solid fa-caret-up"></i>
+</div>
 <script type="" src="main.js"></script>
+
 </body>
 </html>

@@ -13,6 +13,9 @@ body {
     line-height: 2;
     letter-spacing: 1px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /*h2 h3 {*/
 /*    font-family: "Open Sans", sans-serif;*/
@@ -249,6 +252,7 @@ b, strong {
     line-height: 1.5;
     padding-top: 20px;
     margin-bottom: 0;
+    font-weight: normal;
 }
 
 .icon1 {
@@ -327,6 +331,11 @@ h4 {
     margin-bottom: 50px;
     margin-top: 204px;
 }
+.section-heading h2 {
+    letter-spacing : 5px;
+    font-weight: 100;
+    font-size: 25px;
+}
 
 .img-1 {
     width: 33.3%;
@@ -385,6 +394,12 @@ h4 {
     background-color: #AD00FF;
 }
 
+.section-dark1 {
+    margin-top: 100px;
+    height: 335px;
+    padding: 100px 0;
+    background-color: #AD00FF;
+}
 .section-dark h2 {
     color: #FFF;
     font-size: 40px;
@@ -399,6 +414,7 @@ h4 {
     color: #FFF;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 5px;
 }
 
 .client {
@@ -425,7 +441,7 @@ h4 {
 }
 
 .tab {
-
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -687,6 +703,63 @@ p.mini {
     width: 25%;
     float: left;
 }
+.name {
+    padding: 15px 20px;
+    width: 30%;
+    /*border: 100px;*/
+    border: 100px;
+    border-bottom: 1px solid;
+
+}
+.text-email {
+    padding: 15px 20px;
+    width: 30%;
+    border: 100px;
+    border-bottom: 1px solid;
+}
+.text-name {
+
+}
+.message {
+    padding: 10px 20px;
+    width: 916px;
+    border: 100px;
+    border-bottom: 1px solid;
+}
+.text-center a i {
+    width: 50px;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 20px;
+}
+.text-center a i:hover {
+    background-color: #AD00FF;
+}
+#footer {
+    background-color: #56007F;
+    color: #FFF;
+}
+.back-to-top {
+    display: none;
+    position: fixed;
+    right: 0px;
+    bottom: 35px;
+    z-index: 9999;
+}
+.copyright {
+    font-size: 11px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+/* hiệu ứng annimation
+
+ */
+
+
 
 
 
