@@ -1,4 +1,4 @@
-<?php include_once("crucio/index.html"); ?>
+<?php include_once("index.html"); ?>
 
 
 
