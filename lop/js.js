@@ -1,4 +1,4 @@
-var API_URL = 'https://t2009m1-boot.herokuapp.com/api/v1/products';
+var API_URL = 'https://java-register.herokuapp.com/api/v1/products';
 function loadData(){
     var xmlHttpRequest = new xmlHttpRequest();
     xmlHttpRequest.onreadystatechange = function (){
